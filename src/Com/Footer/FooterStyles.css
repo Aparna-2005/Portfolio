@@ -1,0 +1,33 @@
+.foo_container{
+    background-color: rgb(15, 15, 15);
+    padding: 2rem 1rem;
+    width: 100%;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+.social{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.8rem;
+}
+
+.location,.phone,.email,.git,.linked{
+    display: flex;
+    margin-bottom: 0.8rem;
+}
+
+.right a{
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}

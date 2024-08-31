@@ -1,0 +1,35 @@
+.edu-con,.card-body,.card1{
+    background-color: #000;
+    text-align: center;
+
+}
+.card-title{
+  font-size: 30px;
+}
+p{
+    font-size: 20px;
+}
+.edu-con{
+    z-index: -1;
+}
+
+@media screen and (max-width: 1040px ){
+    .card-body{
+        padding: 0px;
+    }
+    .card-body p{
+        font-size: 20px;
+    }
+    .card-body h1{
+        font-size: 25px;
+    }
+    .row{
+        z-index: -3;
+    }
+}
+
+
+.edu_container{
+    width: 100%;
+
+}
