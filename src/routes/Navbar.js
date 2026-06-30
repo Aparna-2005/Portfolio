@@ -34,7 +34,7 @@ export default function Navbar() {
                     <li><Link to="certificates" smooth={true} duration={100} offset={-50} className="link p-3">Certificate</Link></li>
                     <li><Link to="project" className="link p-3">Project</Link></li>
                     <li><Link to="experience" className="link p-3">Experience</Link></li>
-                    <li><Link to="/Contact" className="link p-3">Contact</Link></li>
+                    <li><Link to="contact" className="link p-3">Contact</Link></li>
                 </ul>
                 <div className="bars" onClick={handleClick}>
                     {click ? (<FontAwesomeIcon icon={faXmark} style={{ width: "100px", height: "30px", color: "white" }} />) : (<FontAwesomeIcon icon={faBars} style={{ width: "100px", height: "30px", color: "white" }} />)}

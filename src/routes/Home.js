@@ -8,6 +8,8 @@ import Projpg from './Project/Projpg'
 import HeroImg from './Hero/HeroImg'
 import Exppg from './Experience/Exppg'
 import Certificates from './Certificates/Certificates'
+import Contact from './Contact/Contact'
+import Footer1 from './Footer/Footer1'
 
 
 export default function Home() {
@@ -20,6 +22,8 @@ export default function Home() {
       <Projpg/>
       <Certificates/>
       <Exppg/>
+      <Contact/>
+      <Footer1/>
     </div>
   )
 }
