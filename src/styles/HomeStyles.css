@@ -1,0 +1,61 @@
+.mask{
+    width:100%;
+    height:100vh;
+    position: relative;
+}
+.into-img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+ .hero{
+    width: 100%;
+    height: 100%;
+}
+.hero .content h1{
+    font-size: 4rem;
+    padding: 0.6rem 0 1.5rem;
+}
+p{
+    font-size: 1.4rem;
+    font-weight: bolder;
+    color: white;
+    font-family: cambria;
+}
+.mask::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: 0.8;
+}
+
+.hero .content{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top:50%;
+    left:50%;
+    text-align:center;
+}
+.content a{
+    text-decoration: none;
+}
+.content .btn1{
+    margin: 1rem 0.2rem;
+}
+@media screen and (max-width: 1040px ){
+    .head_text{
+        font-size: 26px;
+    }
+    p{
+        font-size: 40px;
+        font-weight: bolder;
+        color: white;
+        font-family: cambria;
+    }
+} 
